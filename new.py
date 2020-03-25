@@ -1,7 +1,12 @@
-print('hello word')
-print("hello 'xx' word")
+#Escape Sequence as Normal Text
+
+#output :Line A \n Line B
+print("Line A \\n line B")
+print("Line A \\t line B")
+print("this 4 backslash \\\\\\\\")
+
+#output: \" \'
+print(" \\\" \\\' ")
 
 
-print("hello ss/n word")
-print("hello 'xx'/t/t word")
-print("hello 'xx' word////")
+print("this is \\\\ double backslash")
