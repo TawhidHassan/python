@@ -1,12 +1,6 @@
-#Escape Sequence as Normal Text
+#raw string
+print(r"Line A \n line B")
 
-#output :Line A \n Line B
-print("Line A \\n line B")
-print("Line A \\t line B")
-print("this 4 backslash \\\\\\\\")
-
-#output: \" \'
-print(" \\\" \\\' ")
-
-
-print("this is \\\\ double backslash")
+#print emoji
+print("\U0001F604  ")
+print("\U0001F602  ")
