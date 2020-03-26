@@ -1,12 +1,7 @@
-# user input
+name, age="sifat",int(22)
+print("name: "+name+" age: "+str(age))
 
-# use input function
+name, age=input("enter your name and age ").split()
 
-# name=input("type your name")
-
-# print("name:"+name)
-
-num1=int(input("enter 1st number"))
-num2=int(input("enter 2nd number"))
-sum=num1+num2
-print("total: "+str(sum))
+print(name)
+print(age)
