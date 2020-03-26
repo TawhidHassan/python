@@ -1,6 +1,9 @@
-#raw string
-print(r"Line A \n line B")
+u="sifat"
+l="hassan"
 
-#print emoji
-print("\U0001F604  ")
-print("\U0001F602  ")
+s=u+" "+l
+print(s)
+print(s+3)#error
+print(s+"3") #correct
+
+print(s*3) #multiple time print
