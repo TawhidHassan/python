@@ -1,9 +1,12 @@
-u="sifat"
-l="hassan"
+# user input
 
-s=u+" "+l
-print(s)
-print(s+3)#error
-print(s+"3") #correct
+# use input function
 
-print(s*3) #multiple time print
+# name=input("type your name")
+
+# print("name:"+name)
+
+num1=int(input("enter 1st number"))
+num2=int(input("enter 2nd number"))
+sum=num1+num2
+print("total: "+str(sum))
