@@ -1,14 +1,12 @@
-name="     sifat     "
-dot="..................."
+age=input("enter you age: ")
+age=int(age)
 
-print(name.upper())
-print(name.count("i"))
-print(name.lstrip()+ dot)
-print(name.rstrip()+ dot)
+if age>14:
+    print("your age is: "+str(age))
+else:
+    print("sorry you age not requried")    
 
-
-print(name.replace(" ","")+ dot)
-print(name.center(len(name)+8,"*"))
-
-
-
+if age>19:
+    pass #if ypu dont want to noting to write
+ 
+      
