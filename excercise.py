@@ -1,11 +1,9 @@
-winingNum=20
-userInput=input("enter you number b/w 1-100: ")
-userInput=int(userInput)
+userName=input("enter you name: ")
+userAge=input("enter you age: ")
+userAge=int(userAge)
 
-if userInput==winingNum:
-    print("you win!!")
+if userAge>10 and (userName[0]=='a' or userName[0]=='A'):
+    print("you can watch this movie!!")
 else:
-    if userInput<winingNum:
-        print("too low number!!")
-    else:
-        print("too high")   
+    print("you can not watch this movie!!")
+   
