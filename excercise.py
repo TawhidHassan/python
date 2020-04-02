@@ -1,11 +1,10 @@
 userName=input("enter you name: ")
 
-if 'a' in userName:
-    print("'a' present in name")
+i=0
+temp_var=""
 
-elif 'A' in userName:
-    print("'A' present in name")
-
-else:
-    print("not prsenet!")
-   
+while i<len(userName):
+    if userName[i] not in temp_var:
+        temp_var+=userName[i]
+        print(f"{userName[i]} : {userName.count(userName[i])}")
+    i+=1
