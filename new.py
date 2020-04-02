@@ -1,22 +1,11 @@
-winingNum=20
-winingNumt=30
-userInput=input("enter you number b/w 1-100: ")
-userInput=int(userInput)
+# while loop
 
-#and oparator
-# if userInput>winingNum and winingNumt<userInput:
-#     print("you win!!")
-# else:
-#     if userInput<winingNum:
-#         print("too low number!!")
-#     else:
-#         print("too high")   
-
-#or oparator
-if userInput>winingNum or winingNumt<userInput:
-    print("you win!!")
-else:
-    if userInput<winingNum:
-        print("too low number!!")
-    else:
-        print("too high")   
+i=0
+total=0
+# while i<=10:
+#     print("hello")
+#     i=i+1
+while i<=10:
+    total+=i
+    i+=1
+print(total)
