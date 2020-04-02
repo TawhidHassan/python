@@ -1,13 +1,11 @@
 userName=input("enter you name: ")
-userAge=input("enter you age: ")
-userAge=int(userAge)
 
-if userAge>10 and (userName[0]=='a' or userName[0]=='A'):
-    print("you can watch this movie!!")
+if 'a' in userName:
+    print("'a' present in name")
 
-elif userAge==11:
-    print("user 11 year old")
-    
+elif 'A' in userName:
+    print("'A' present in name")
+
 else:
-    print("you can not watch this movie!!")
+    print("not prsenet!")
    
