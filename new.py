@@ -1,15 +1,13 @@
-# break use
+# function
 
-i=0
-n=int(input("enter you total sum number: "))
-total=0
-# for i in range(1,n+1):
-#     if i==5:
-#         break
-#     total+=i
-#     print(i)
-for i in range(1,n+1):
-    if i==5:
-        continue
-    total+=i
-    print(i)
+def grater(a,b):
+    if a>b:
+        return a
+    else:
+        return b
+
+num1=int(input("enter 1 no: "))
+num2=int(input("enter 2 no: "))
+biger=grater(num1,num2)
+
+print(f"{biger} is greated")
