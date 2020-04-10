@@ -1,14 +1,11 @@
 # list
+# split method
+name,age=input("enter your name").split(',')
 
-# fruits=['grapes','apple']
+print(name)
+print(age)
 
-# print(fruits)
 
-# fruits.append('mang0')
-# print(fruits)
-
-fruits=['grapes','apple']
-del fruits[1]
-print(fruits)
+# join method
 
 
