@@ -1,11 +1,8 @@
 # list
-# split method
-name,age=input("enter your name").split(',')
+mattrix=[[1,23,4,5],[6,7,8],[9,10,11]]
 
-print(name)
-print(age)
-
-
-# join method
-
+for sublist in mattrix:
+    print(sublist)
+    for i in sublist:
+        print(i)
 
